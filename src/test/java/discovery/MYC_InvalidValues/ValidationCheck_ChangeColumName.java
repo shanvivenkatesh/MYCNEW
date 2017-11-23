@@ -46,6 +46,10 @@ public class ValidationCheck_ChangeColumName extends Wrapper_methods{
 		Assert.assertTrue(Actual_Error.contains("Expected column name 'Title', actual name 'Titles'"));
 		quitBrowser();
 		
+		System.out.println(Actual_Error);
+		Assert.assertTrue(Actual_Error.contains("Expected column name 'Title', actual name 'Titles'"));
+		quitBrowser();
+		
 		
 	}
 	
